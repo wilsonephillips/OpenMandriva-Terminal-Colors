@@ -1,7 +1,7 @@
 Approved colors for use in Window Managers
 and for use in terminals such as Kitty
 
-background            #232627
+background            #21242B
 foreground            #ffffff
 cursor                #d0d0d0
 selection_background  #444444
