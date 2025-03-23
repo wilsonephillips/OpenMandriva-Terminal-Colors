@@ -1,0 +1,24 @@
+Approved colors for use in Window Managers
+and for use in terminals such as Kitty
+
+background            #232627
+foreground            #ffffff
+cursor                #d0d0d0
+selection_background  #444444
+color0                #232627
+color8                #767676
+color1                #cc2263
+color9                #e2266e
+color2                #40da76
+color10               #4bff8a
+color3                #da7340
+color11               #dac040
+color4                #2080bb
+color12               #40a5da
+color5                #a740da
+color13               #c14afd
+color6                #61c583
+color14               #72e69a
+color7                #afb3bd
+color15               #ecf2ff
+selection_foreground  #cecece
