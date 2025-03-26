@@ -7,9 +7,9 @@
 [general]
 
 # Import additional configuration files
-import = [
-  "~/.config/alacritty/openmandriva.toml"
-]
+#import = [
+ # "~/.config/alacritty/openmandriva.toml"
+#]
 
 # Shell program and its arguments
 # Default for Linux/BSD/macOS is $SHELL or user's login shell
@@ -58,7 +58,7 @@ dynamic_padding = false  # Default: false
 decorations = "Buttonless"  # Default: "Full"
 
 # Opacity
-opacity = 0.8  # Default: 1.0
+opacity = 1.0  # Default: 1.0
 
 # Blur (macOS/KDE Wayland only)
 blur = false  # Default: false
@@ -140,10 +140,10 @@ draw_bold_text_with_bright_colors = false  # Default
 
 # Primary colors
 [colors.primary]
-#foreground = "#d8d8d8"  # Default
-#background = "#181818"  # Default
-#dim_foreground = "#828482"  # Default
-#bright_foreground = "None"  # Default
+foreground = "#ffffff"  # Default
+background = "#21242b"  # Default
+dim_foreground = "#d8d8d8"  # Default
+bright_foreground = "#40a5da"  # Default
 
 # Cursor colors
 [colors.cursor]
@@ -157,21 +157,21 @@ draw_bold_text_with_bright_colors = false  # Default
 
 # Search colors
 [colors.search.matches]
-#foreground = "#181818"  # Default
-#background = "#ac4242"  # Default
+#foreground = "#232627"  # Default
+#background = "#871742"  # Default
 
 [colors.search.focused_match]
-#foreground = "#181818"  # Default
-#background = "#f4bf75"  # Default
+#foreground = "#232627"  # Default
+#background = "#da7340"  # Default
 
 # Hint colors
 [colors.hints.start]
-#foreground = "#181818"  # Default
-#background = "#f4bf75"  # Default
+#foreground = "#232627"  # Default
+#background = "#da7340"  # Default
 
 [colors.hints.end]
-#foreground = "#181818"  # Default
-#background = "#ac4242"  # Default
+#foreground = "#232627"  # Default
+#background = "#871742"  # Default
 
 # Line indicator colors
 [colors.line_indicator]
@@ -180,46 +180,47 @@ draw_bold_text_with_bright_colors = false  # Default
 
 # Footer bar colors
 [colors.footer_bar]
-#foreground = "#181818"  # Default
-#background = "#d8d8d8"  # Default
+#foreground = "#232627"  # Default
+#background = "#ecf2ff"  # Default
 
 # Selection colors
 [colors.selection]
 #text = "CellBackground"  # Default
 #background = "CellForeground"  # Default
 
+
 # Normal colors
 [colors.normal]
-#black = "#181818"  # Default
-#red = "#ac4242"  # Default
-#green = "#90a959"  # Default
-#yellow = "#f4bf75"  # Default
-#blue = "#6a9fb5"  # Default
-#magenta = "#aa759f"  # Default
-#cyan = "#75b5aa"  # Default
-#white = "#d8d8d8"  # Default
+black = '#232627'
+red = '#cc2263'
+green = '#40da76'
+yellow = '#da7340'
+blue = '#2080bb'
+magenta = '#a740da'
+cyan = '#61c583'
+white = '#afb3bd'
 
 # Bright colors
 [colors.bright]
-#black = "#6b6b6b"  # Default
-#red = "#c55555"  # Default
-#green = "#aac474"  # Default
-#yellow = "#feca88"  # Default
-#blue = "#82b8c8"  # Default
-#magenta = "#c28cb8"  # Default
-#cyan = "#93d3c3"  # Default
-#white = "#f8f8f8"  # Default
+black = '#767676'
+red = '#e2266e'
+green = '#4bff8a'
+yellow = '#dac040'
+blue = '#40a5da'
+magenta = '#c14afd'
+cyan = '#72e69a'
+white = '#ecf2ff'
 
 # Dim colors
 [colors.dim]
-#black = "#0f0f0f"  # Default
-#red = "#712b2b"  # Default
-#green = "#5f6f3a"  # Default
-#yellow = "#a17e4d"  # Default
-#blue = "#456877"  # Default
-#magenta = "#704d68"  # Default
-#cyan = "#4d7770"  # Default
-#white = "#8e8e8e"  # Default
+black = '#505050'
+red = '#871742'
+green = '#2a904e'
+yellow = '#b45d35'
+blue = '#005c9d'
+magenta = '#005c9d'
+cyan = '#38714b'
+white = '#606167'
 
 ########
 # BELL #
