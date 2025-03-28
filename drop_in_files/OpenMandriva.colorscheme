@@ -1,5 +1,7 @@
 # place this file in ~/.local/share/konsole/
 # it will show as a choice in Konsole settings
+# @WilsonPhillips
+# https://forum.openmandriva.org/
 
 [Background]
 Color=33,36,43
